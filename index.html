@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <title>Faculdade iv2</title>
+</head>
+<body class="body">
+    <section class="section">
+        <div class="operacao">
+            <h4>Retorno de um número fracionado em inteiro</h4>
+            <label for="num">Digite um número fracionado</label><br>
+            <input id="num" type="number" name="num">
+            <span id="result">O resultado é:</span>
+            <button onclick="calcular()">Calcular</button>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="operacao">
+            <h4>Potência do 1º número pelo 2º número</h4>
+            <label for="num1">Digite um número</label><br>
+            <input id="num1" type="number" name="num1"><br>
+            <label for="num2">Digite outro número</label><br>
+            <input id="num2" type="number" name="num1">
+            <span id="potencia">O resultado é</span>
+            <button onclick="calcularPotencia()">Calcular</button>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="operacao">
+            <h4>Cálculos referentes a medida de um Circulo</h4>
+            <label for="raio">Digite o raio</label><br>
+            <input id="raio" type="number" name="raio">
+            <span id="resCircunferencia">Circunferência:</span>
+            <span id="resArea">Área:</span>
+            <button onclick="calcularMedidasCirculo()">Calcular</button>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="operacao">
+            <h4>Calculos referentes a medida de um Cubo</h4>
+            <label for="altura">Digite a altura</label><br>
+            <input id="altura" type="number" name="altura">
+            <span id="resAreaBase">Área da base:</span>
+            <span id="resAreaTotal">Área total:</span>
+            <span id="resVolume">Volume:</span>
+            <button onclick="calcularMedidasCubo()">Calcular</button>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="operacao">
+            <h4>Calculos referentes a área de um triangulo</h4>
+            <label for="base">Digite a base</label><br>
+            <input id="base" type="number" name="base"><br>
+            <label for="num2">Digite a altura</label><br>
+            <input id="alturaTriangulo" type="number" name="alturaTriangulo">
+            <span id="resAreaTriangulo">Área do triângulo:</span>
+            <input type="button" value="Calcular" id="btnCalcular">
+        </div>
+    </section>
+
+    <script src="scripts/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,43 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    list-style: none;
+}
+.body{
+    background-color: white;
+    background-color: rgb(92, 33, 92);
+}
+h4,span,label{
+    color: white;
+}
+span,label{
+    display: block;
+}
+input[type='number']{
+    font-size: 1em;
+}
+.section{
+    width: 40vw;
+    height: 35vh;
+    margin: 20px auto 20px auto;
+    border: 2px solid white;
+    background-color: rgb(46, 3, 83);
+    display: flex;
+    border-radius: 5px;
+}
+.operacao{
+    width: 95%;
+    height: 95%;
+    padding: 5px;
+    margin: auto;
+}
+.operacao button,.operacao input[type='button']{
+    border: none;
+    border-radius: 5px;
+    font-size: 16pt;
+    box-sizing: border-box;
+    width: 6rem;
+    padding: 2px;
+}
